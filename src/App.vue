@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import CountDown from './components/CountDown.vue';
+import MatchGestor from './components/MatchGestor.vue';
+import MatchHistory from './components/MatchHistory.vue';
+import PageHeading from './components/PageHeading.vue';
 import TeamMembers from './components/TeamMembers.vue';
 import TournamentTable from './components/TournamentTable.vue';
 
@@ -8,8 +11,11 @@ import TournamentTable from './components/TournamentTable.vue';
 
 <template>
 <CountDown/>
+<PageHeading/>
+<TournamentTable/> 
+<MatchHistory/>
 <TeamMembers/>
-<TournamentTable/>
+<MatchGestor/>
 </template>
 
 <style>
