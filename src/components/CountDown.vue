@@ -1,8 +1,8 @@
 <template>
 <div class="bg-bluegray-900 text-gray-100 p-3 flex justify-content-between lg:justify-content-center align-items-center flex-wrap">
-    <div class="font-bold mr-8 text-3xl">Prepárense 🔥</div>
+    <div class="font-bold mr-8 text-2xl">Prepárense 🔥</div>
     <div class="align-items-center lg:flex">
-        <span class="line-height-3 text-3xl">{{ countDown  }}</span>
+        <span class="line-height-3 text-2xl">{{ countDown  }}</span>
     </div>
 </div>
 </template>

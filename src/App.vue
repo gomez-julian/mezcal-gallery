@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BotSponsors from './components/BotSponsors.vue';
 import CountDown from './components/CountDown.vue';
 import MatchGestor from './components/MatchGestor.vue';
 import MatchHistory from './components/MatchHistory.vue';
@@ -16,6 +17,7 @@ import TournamentTable from './components/TournamentTable.vue';
 <MatchHistory/>
 <TeamMembers/>
 <MatchGestor/>
+<BotSponsors/>
 </template>
 
 <style>

@@ -36,8 +36,8 @@ const del = (match:Match) => {
 </script>
 
 <template>
-    <div class="surface-section px-4 py-5 md:px-6 lg:px-8">
-        <ul class="list-none p-0 m-0 flex align-items-center font-medium mb-3">
+    <div class="surface-section px-4 py-1 md:px-6 lg:px-8">
+        <!-- <ul class="list-none p-0 m-0 flex align-items-center font-medium mb-3">
             <li>
                 <a class="text-500 no-underline line-height-3 cursor-pointer">Mezcal</a>
             </li>
@@ -53,9 +53,9 @@ const del = (match:Match) => {
             <li>
                 <span class="text-900 line-height-3">Gestor</span>
             </li>
-        </ul>
+        </ul> -->
         <div class="flex flex-column md:flex-row md:justify-content-between">
-            <span class="text-3xl font-medium text-900">MEZCAL LLORERIA</span>
+            <span class="text-3xl font-medium text-900">PATROCINADORES</span>
             <div class="flex align-items-center mt-3 md:mt-0">
                 <span class="p-input-icon-left">
                     <i class="pi pi-lock"></i>

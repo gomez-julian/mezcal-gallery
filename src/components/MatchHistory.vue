@@ -6,13 +6,13 @@ const { matches } = useMezcal()
 </script>
 
 <template>
-    <section class="surface-section px-4 py-8 md:px-6 lg:px-8">
+    <section class="surface-section px-4 py-4 md:px-6 lg:px-8">
         <h2 class="text-center text-blue-500 font-semibold text-2xl line-height-1">Historial de partidas</h2>
         <h3 class="text-center text-900 font-semibold text-5xl line-height-1">Se les acabó la mentira</h3>
         <div class="grid grid-nogutter align-items-center">
             <div class="col-12">
                 <div class="grid mt-4">
-                    <article class="col-12 mb-5 lg:mb-2" v-for="match in matches" :key="match.ts">
+                    <article class="col-12 mb-1 lg:mb-1" v-for="match in matches" :key="match.ts">
                         <div class="mb-3 relative h-12rem border-round bg-cover bg-no-repeat"
                             :style="`background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${match.name_1 === match.winner ? match.champ_1 : match.champ_2 }_0.jpg')`">
                             <div class="border-round p-3 absolute text-white inline-flex flex-column justify-content-center font-semibold"

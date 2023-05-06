@@ -22,7 +22,7 @@ const teamMembers = [
         picture: "/images/mori.png"
     },
     {
-        name: "Tobalá (Chucho)",
+        name: "Tobalá (Chuy Ramos)",
         value: "Tobala",
         picture: "/images/chucho.png"
     },
