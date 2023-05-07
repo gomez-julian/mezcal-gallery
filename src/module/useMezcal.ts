@@ -280,8 +280,13 @@ const useMezcal = () => {
         }).sort((a,b) => {
             const diffA = a.wins - a.total;
   const diffB =  b.wins - b.total;
-
-  if (diffA !== diffB) {
+  if(a.total == 0){
+    return 1
+  }
+  else if(b.total == 0){
+    return -1
+  }
+  else if (diffA !== diffB) {
     // Ordenar por diferencia de mayor a menor
     return diffB - diffA;
   } else {
